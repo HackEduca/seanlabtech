@@ -1,14 +1,14 @@
-Part 3: Performing Common Tasks
+Part 3: 기본정보 3
 ==================================
 
 .. toctree::
    :maxdepth: 3
 
+   chapter6
+   chapter7
+   chapter8
+   chapter9
    chapter10
-   chapter11
-   chapter12
-   chapter13
-   chapter14
 
 
 

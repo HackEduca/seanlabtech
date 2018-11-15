@@ -1,4 +1,4 @@
-Part 2: Talking the Talk.
+Part 2: 기본정보 2
 ===========================
 
 .. toctree::
@@ -6,11 +6,11 @@ Part 2: Talking the Talk.
 
 
 
+   chapter1
+   chapter2
+   chapter3
+   chapter4
    chapter5
-   chapter6
-   chapter7
-   chapter8
-   chapter9
 
 
 
