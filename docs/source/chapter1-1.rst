@@ -1,4 +1,4 @@
-chapter 1: Block Chain
+chapter 1: minecraft
 ======================================
 
 1.1  All tech books
@@ -10,47 +10,17 @@ http://www.allitebooks.com/
 
 
 Beginning Blockchain
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-
 Bitcoin Essentials
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
 Bitcoin For Dummies
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
 Bitcoin for the Befuddled
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-
 Building Games with Ethereum Smart Contracts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 Decentralized Applications
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
 Mastering Bitcoin, 2nd Edition
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. toctree::
-   :maxdepth: 3
+1.1  minecraft+scratch
+-----------------------------
 
-   chapter1-1-1
-   chapter1-1-2
-   chapter1-1-3
-   chapter1-1-4
-   chapter1-1-5
-   chapter1-1-6
-   chapter1-1-7
+https://github.com/mpatrascu/ScratchMC
+
+
