@@ -23,4 +23,33 @@ Mastering Bitcoin, 2nd Edition
 
 https://github.com/mpatrascu/ScratchMC
 
+ScriptCraft
+~~~~~~~~~~~~~~~
+
+https://github.com/walterhiggins/ScriptCraft/tree/master
+
+
+https://github.com/tclavier/docker-scriptcraft
+
+
+1.2  Scratch 3.0
+-----------------------------
+
+
+github
+~~~~~~~~~~~~~~~
+
+https://github.com/LLK/scratch-gui
+
+
+electron
+~~~~~~~~~~~~~~~
+
+npm install -g asar
+
+asar pack app app.asar
+
+asar extract app.asar destfolder
+
+
 
