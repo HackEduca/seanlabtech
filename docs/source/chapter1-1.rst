@@ -52,4 +52,16 @@ asar pack app app.asar
 asar extract app.asar destfolder
 
 
+scratch extension
+~~~~~~~~~~~~~~~~~~~~~~
+https://scratch.mit.edu/discuss/topic/289503/
+
+node_modules\scratch-blocks
+
+npm install
+
+npm link
+
+You can also use the command python build.py to build scratch blocks, but from my experience, changes aren't reflected
+in the GUI unless you run npm link.
 
