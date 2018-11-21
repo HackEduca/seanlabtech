@@ -65,3 +65,9 @@ npm link
 You can also use the command python build.py to build scratch blocks, but from my experience, changes aren't reflected
 in the GUI unless you run npm link.
 
+
+
+mblock bluetooth
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://github.com/inker610566/MBlocky
