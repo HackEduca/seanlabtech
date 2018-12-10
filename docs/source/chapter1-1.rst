@@ -31,8 +31,105 @@ https://github.com/walterhiggins/ScriptCraft/tree/master
 
 https://github.com/tclavier/docker-scriptcraft
 
+python 3.7 install
+~~~~~~~~~~~~~~~~~~~~~~
 
-1.2  Scratch 3.0
+.. code-block:: python
+
+
+    sudo apt-get update -y
+    sudo apt-get install build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev -y
+
+
+    wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
+
+    tar xf Python-3.7.0.tar.xz
+
+    cd Python-3.7.0
+    ./configure
+    make -j 4
+    sudo make altinstall
+
+     sudo ln -sf /usr/local/bin/python3.7 /usr/bin/python
+
+    /usr/local/lib/python3.5/dist-packages/mcpi/minecraft.py
+
+    /home/pi/Desktop/mcpi-scratch-server.desktop
+
+    Exec=lxterminal --command="/bin/bash -c 'python2 -i /home/pi/Documents/MCPiScratch/mcpi-scratch/mcpi-scratch-server.py'"
+
+python pip install
+~~~~~~~~~~~~~~~~~~~~~
+
+sudo apt-get install python3-pip
+
+To get the Python 2 version:
+
+sudo apt-get install python-pip
+
+
+For example, the following command installs the Unicorn HAT library for Python 3:
+
+pip3 install unicornhat
+The following command installs the Unicorn HAT library for Python 2:
+
+pip install unicornhat
+
+
+
+denosawr
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://denosawr.github.io/mcpi-scratch/
+
+
+
+curl -s https://denosawr.github.io/mcpi-scratch/install.sh | sh
+
+mcpi-scratch는 python2에서 동작함
+/home/pi/Desktop/mcpi-scratch-server.desktop 수정필요
+
+
+1.2  A4S
+-----------------------------
+
+https://github.com/damellis/A4S
+
+raspberrypi
+~~~~~~~~~~~~~~~~~~
+
+git clone https://github.com/damellis/A4S
+
+git clone https://github.com/firmata/processing
+
+>./build.sh
+
+
+
+sudo apt-get install librxtx-java
+
+* USB 확인
+
+dmesg | tail
+*run.sh 수정
+ -Djava.library.path=/usr/lib/jni 추가 
+
+java -d32 -Djava.library.path=/usr/lib/jni  -jar  A4S.jar $@
+
+
+*실행
+
+./run.sh /dev/ttyUSB0
+
+
+
+
+
+
+
+
+
+1.3  Scratch 3.0
 -----------------------------
 
 

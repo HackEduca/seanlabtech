@@ -19,9 +19,10 @@ sudo apt-get install librxtx-java
 
 run.sh
 
-cp librxtxSerial.so librxtxSerial.jnilib /usr/lib/
-cp librxtxSerial.so librxtxSerial.jnilib /usr/lib/jni
 
 
 
+* USB 확인
+
+dmesg | tail
 
