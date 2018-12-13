@@ -112,7 +112,7 @@ sudo apt-get install librxtx-java
 
 dmesg | tail
 *run.sh 수정
- -Djava.library.path=/usr/lib/jni 추가 
+ -Djava.library.path=/usr/lib/jni 추가
 
 java -d32 -Djava.library.path=/usr/lib/jni  -jar  A4S.jar $@
 
@@ -193,6 +193,11 @@ scratch-gui\node_modules\scratch-vm\src\extension-support
 
 extension-manager.js
 const Scratch3PenSEANBlocks = require('../extensions/scratch3_seanpen');
+
+
+scratch-gui\src\lib\libraries\extensions
+
+index.jsx  id와 아래 id가 일치
 
 const builtinExtensions = {
     pen: Scratch3PenBlocks,
